@@ -1,0 +1,13 @@
+div {
+  width: 100%;
+  text-align:center;
+}
+.watch {
+  width:900em;
+  font-size: 4em;
+  background: #aa0000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  position:relative;
+}
