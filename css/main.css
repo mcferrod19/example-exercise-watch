@@ -1,13 +1,20 @@
-div {
-  width: 100%;
-  text-align:center;
-}
-.watch {
-  width:900em;
-  font-size: 4em;
-  background: #aa0000;
-  color: #fff;
-  padding: 15px;
-  border-radius: 3px;
-  position:relative;
-}
+* {
+  box-sizing: border-box; }
+
+.flex {
+  display: flex;
+  justify-content: center; }
+
+.clock {
+  font-family: 'Kumar One', cursive;
+  color: white;
+  font-size: 15em; }
+
+body {
+  background-color: black; }
+
+@media (min-width: 360px), handheld and (orientation: landscape) {
+  .clock {
+    font-size: 5em; } }
+
+/*# sourceMappingURL=main.css.map */

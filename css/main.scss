@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.clock{
+  font-family: 'Kumar One', cursive;
+  color: white;
+  font-size:15em;
+}
+ body{
+   background-color: black;
+ }
+
+@media (min-width: 360px), handheld and(orientation: landscape) {
+  .clock {
+    font-size:5em; }
+}
